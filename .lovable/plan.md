@@ -1,94 +1,45 @@
 
 
-## Implementacao do Plano Aprovado
+## Plano de Alteracoes de Conteudo
 
-Este plano implementa as 3 alteracoes aprovadas anteriormente, utilizando a imagem medica enviada como background do Hero.
-
----
-
-### 1. Copiar imagem para o projeto
-
-- Copiar `user-uploads://medico-realizando-um-laudo-de-medicina.webp` para `src/assets/hero-bg.webp`
-- Sera usada como background da secao Hero
+Multiplas alteracoes de texto e conteudo em 8 arquivos existentes.
 
 ---
 
-### 2. Reformulacao da Secao Hero (`src/components/HeroSection.tsx`)
+### 1. HeroSection.tsx
+- Badge: "Pediatria e Homeopatia" → "Pediatria"
+- Titulo: → "Cuidado Médico Humanizado desde o pré-natal até a infância em São Paulo"
+- Subtitulo: → "Consultas sem pressa, com avaliação integral do paciente e acompanhamento contínuo baseado em evidências científicas."
 
-**Mudancas:**
-- Remover o video do YouTube e o layout lado-a-lado
-- Usar a imagem `hero-bg.webp` como background full-width via `style={{ backgroundImage }}`
-- Overlay escuro (bg-black/50) sobre a imagem para contraste
-- Centralizar todo o conteudo verticalmente e horizontalmente
-- Texto em branco (text-white) para legibilidade
-- Manter selo "Pediatria e Homeopatia" e "Atendimento Particular em SP"
-- Manter botao CTA com cor #01B5C3
-- Min-height generoso para impacto visual (min-h-[80vh] mobile, min-h-[85vh] desktop)
+### 2. AboutSection.tsx
+- Substituir os 3 paragrafos por:
+  - "Sou médico pediatra que acompanha o paciente desde o pré-natal até a infância. E homeopata, nessa especialidade atendo pessoas de todas as idades."
+  - "A minha consulta é estruturada para compreender o paciente como um todo, fortalecendo o vínculo médico e familiar."
+  - "Minha prática é voltada para pacientes que se sentem frustrados com consultas rápidas, diagnósticos superficiais ou tratamentos padronizados."
 
----
+### 3. AuthoritySection.tsx
+- Card 1 (Medico Especialista): texto → "Formado pela Faculdade de Medicina da USP com título de especialista em pediatria pela Associação Médica Brasileira (AMB). Título de especialista em homeopatia pela Associação Médica Homeopática Brasileira (AMHB)."
+- Card 2 (Autor de 3 Livros): texto → "GERAR E NASCER um canto de amor e aconchego. CRÔNICAS AGUDAS de aleitamento materno. HOMEOPATIA Mais Simples do Que Parece."
+- Card 6 (ultimo): titulo → "Mais de 30 anos de experiência", texto → "Milhares de famílias atendidas em meu consultório particular."
 
-### 3. Nova Secao: Autoridade e Reconhecimento (`src/components/AuthoritySection.tsx`)
+### 4. VideoSection.tsx
+- Trocar video de `7omypCaZv7g` para `WCmmxR0dAEI`
+- Atualizar link do botao YouTube
+- Remover subtitulo (paragrafo abaixo do titulo)
 
-**Arquivo novo** inserido apos AboutSection.
+### 5. SpecialtiesSection.tsx
+- "Pediatria Particular" → "Pediatria"
+- Remover item "Atendimento exclusivamente particular" da lista
+- Ambos botoes → "Agendar Consulta"
 
-- Fundo `bg-warm` para contraste suave
-- Titulo: "Reconhecimento e Autoridade na Area Medica"
-- Subtitulo descritivo
-- Grid responsivo: 2 colunas mobile, 3 colunas desktop
-- 6 cards com icones Lucide:
-  - Stethoscope - Medico Especialista (CRM 36.349)
-  - BookOpen - Autor de 3 Livros
-  - GraduationCap - Certificacoes
-  - Youtube - Canal YouTube +150 mil inscritos
-  - Newspaper - Colunista e Midia
-  - Star - Referencia para Familias em SP
-- Cards com bg-white, sombra leve, cantos arredondados
-- Animacao fade-in-up
-- Botao "Agendar Consulta" ao final
+### 6. OfficeSection.tsx
+- Titulo: → "O Consultório"
+- Subtitulo: → "Ambiente acolhedor, confortável e preparado para oferecer segurança e tranquilidade às famílias no coração de São Paulo, próximo à Av. Paulista."
 
----
+### 7. TestimonialsSection.tsx
+- Substituir "Dr Moisés" por "Dr Moises" nos depoimentos
 
-### 4. Nova Secao: Video YouTube (`src/components/VideoSection.tsx`)
-
-**Arquivo novo** inserido apos AuthoritySection.
-
-- Fundo `bg-background` (branco)
-- Titulo: "Assista e Conheca Mais Sobre Meu Trabalho"
-- Subtitulo explicativo
-- iframe YouTube centralizado, max-w-4xl, aspect-video 16:9
-- Bordas arredondadas e sombra no container do video
-- Autoplay com audio (autoplay=1, sem mute)
-- Controles visiveis
-- Botao "Assistir no YouTube" com link externo (target_blank)
-- Badge "+150 mil inscritos no YouTube" abaixo
-
----
-
-### 5. Atualizar Index (`src/pages/Index.tsx`)
-
-Nova ordem das secoes:
-1. Header
-2. HeroSection (com background image)
-3. AboutSection
-4. **AuthoritySection** (novo)
-5. **VideoSection** (novo)
-6. SpecialtiesSection
-7. OfficeSection
-8. TestimonialsSection
-9. LocationSection
-10. FAQSection
-11. Footer
-12. FloatingWhatsApp
-
----
-
-### Resumo tecnico
-
-| Arquivo | Acao |
-|---|---|
-| `src/assets/hero-bg.webp` | Copiar imagem enviada |
-| `src/components/HeroSection.tsx` | Reescrever com background image |
-| `src/components/AuthoritySection.tsx` | Criar novo |
-| `src/components/VideoSection.tsx` | Criar novo |
-| `src/pages/Index.tsx` | Adicionar imports e secoes |
+### 8. FAQSection.tsx
+- Pergunta 1: "O Dr. Moises atende por algum convênio?" / "Atualmente atendo apenas no particular e gero recibo para a solicitação de reembolso junto ao convênio."
+- Remover FAQ "A homeopatia substitui tratamento convencional?"
 
