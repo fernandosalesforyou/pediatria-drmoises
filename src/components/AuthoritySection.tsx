@@ -5,12 +5,12 @@ const items = [
   {
     icon: Stethoscope,
     title: "Médico Especialista",
-    text: "CRM 36.349 | RQE Nº 37546 e Nº 37545. Atuação consolidada em Pediatria e Homeopatia, com prática clínica focada em atendimento individualizado.",
+    text: "Formado pela Faculdade de Medicina da USP com título de especialista em pediatria pela Associação Médica Brasileira (AMB). Título de especialista em homeopatia pela Associação Médica Homeopática Brasileira (AMHB).",
   },
   {
     icon: BookOpen,
     title: "Autor de 3 Livros",
-    text: "Publicações na área médica voltadas para orientação de famílias e profissionais da saúde.",
+    text: "GERAR E NASCER um canto de amor e aconchego. CRÔNICAS AGUDAS de aleitamento materno. HOMEOPATIA Mais Simples do Que Parece.",
   },
   {
     icon: GraduationCap,
@@ -29,8 +29,8 @@ const items = [
   },
   {
     icon: Star,
-    title: "Referência para Famílias em São Paulo",
-    text: "Reconhecido pelo atendimento humanizado e abordagem baseada em evidências.",
+    title: "Mais de 30 anos de experiência",
+    text: "Milhares de famílias atendidas em meu consultório particular.",
   },
 ];
 

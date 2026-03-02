@@ -7,8 +7,8 @@ import {
 
 const faqs = [
   {
-    q: "O atendimento é por convênio?",
-    a: "Atendimento exclusivamente particular.",
+    q: "O Dr. Moises atende por algum convênio?",
+    a: "Atualmente atendo apenas no particular e gero recibo para a solicitação de reembolso junto ao convênio.",
   },
   {
     q: "Como funciona o agendamento?",
@@ -17,10 +17,6 @@ const faqs = [
   {
     q: "A consulta tem duração média de quanto tempo?",
     a: "O tempo necessário para avaliação cuidadosa e individualizada.",
-  },
-  {
-    q: "A homeopatia substitui tratamento convencional?",
-    a: "A conduta é definida de forma individual em consulta médica.",
   },
   {
     q: "Atende adultos?",

@@ -3,15 +3,15 @@ import WhatsAppButton from "./WhatsAppButton";
 
 const testimonials = [
   {
-    text: "Já fazem 16 anos que meu filho fez um tratamento homeopático com o Doutor Moisés por conta da sinusite e rinite, nunca mais ele teve problema, médico excelente, sábio e experiente naquilo que faz. Adorei o atendimento e conduta. Podem levar seus filhos sem medo que será tratado com um profissional muito capacitado naquilo que se propôs a se dedicar.",
+    text: "Já fazem 16 anos que meu filho fez um tratamento homeopático com o Doutor Moises por conta da sinusite e rinite, nunca mais ele teve problema, médico excelente, sábio e experiente naquilo que faz. Adorei o atendimento e conduta. Podem levar seus filhos sem medo que será tratado com um profissional muito capacitado naquilo que se propôs a se dedicar.",
     author: "Renata Vasconcelos",
   },
   {
-    text: "Eu serei eternamente grata ao Dr Moisés. Depois de passar por pediatras e outros profissionais \"renomados\" de SP e não descobrirem o que minha bebê tinha e chorava ao mamar, ele em instantes percebeu a pouca movimentação na língua. Médico experiente, objetivo, seguro e capacitado, sem rodeios e frufrus. Tudo que uma família/pais de primeira viagem precisam. Senti muita confiança e não troco mais!",
+    text: "Eu serei eternamente grata ao Dr Moises. Depois de passar por pediatras e outros profissionais \"renomados\" de SP e não descobrirem o que minha bebê tinha e chorava ao mamar, ele em instantes percebeu a pouca movimentação na língua. Médico experiente, objetivo, seguro e capacitado, sem rodeios e frufrus. Tudo que uma família/pais de primeira viagem precisam. Senti muita confiança e não troco mais!",
     author: "Ariane Guimarães",
   },
   {
-    text: "Dr Moisés foi pediatra do meu irmão e hoje é do meu filho. Ele é muito atencioso, dedicado, prático e apaixonado pela sua profissão. Precisei mandar email pra ele algumas vezes e ele sempre me responde (mesmo durante o final de semana)... sinto que meu filho tem um pediatra de verdade.",
+    text: "Dr Moises foi pediatra do meu irmão e hoje é do meu filho. Ele é muito atencioso, dedicado, prático e apaixonado pela sua profissão. Precisei mandar email pra ele algumas vezes e ele sempre me responde (mesmo durante o final de semana)... sinto que meu filho tem um pediatra de verdade.",
     author: "Paula Zapparolli",
   },
 ];
