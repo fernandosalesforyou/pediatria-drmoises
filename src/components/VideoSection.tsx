@@ -8,15 +8,12 @@ const VideoSection = () => (
         <h2 className="font-display text-2xl md:text-3xl lg:text-4xl font-bold text-foreground mb-3">
           Assista e Conheça Mais Sobre Meu Trabalho
         </h2>
-        <p className="font-body text-muted-foreground max-w-2xl mx-auto">
-          Neste vídeo, compartilho sobre meus livros, minha atuação em homeopatia e minha visão sobre um cuidado médico mais individualizado e humanizado.
-        </p>
       </div>
 
       <div className="max-w-4xl mx-auto mb-8">
         <div className="aspect-video rounded-2xl overflow-hidden shadow-xl border border-border">
           <iframe
-            src="https://www.youtube.com/embed/7omypCaZv7g?autoplay=1&controls=1&rel=0"
+            src="https://www.youtube.com/embed/WCmmxR0dAEI?autoplay=1&controls=1&rel=0"
             title="Dr. Moises Chencinski - Pediatria e Homeopatia"
             className="w-full h-full"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -27,7 +24,7 @@ const VideoSection = () => (
 
       <div className="text-center space-y-4">
         <a
-          href="https://youtu.be/7omypCaZv7g?si=TyHM_lynkD9bFNgt"
+          href="https://youtu.be/WCmmxR0dAEI?si=3ZMlVluVlxV-EJCq"
           target="_blank"
           rel="noopener noreferrer"
           className="inline-flex items-center gap-2 rounded-lg bg-primary px-6 py-3.5 font-body font-semibold text-primary-foreground shadow-md transition-all hover:brightness-110 hover:shadow-lg active:scale-[0.98]"

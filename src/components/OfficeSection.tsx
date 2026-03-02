@@ -19,10 +19,10 @@ const OfficeSection = () => (
   <section id="consultorio" className="py-16 md:py-24 bg-background">
     <div className="container">
       <h2 className="font-display text-2xl md:text-3xl font-bold text-foreground text-center mb-3">
-        Conheça Nosso Consultório
+        O Consultório
       </h2>
       <p className="font-body text-muted-foreground text-center mb-10 max-w-lg mx-auto">
-        Ambiente acolhedor, confortável e preparado para oferecer segurança e tranquilidade às famílias.
+        Ambiente acolhedor, confortável e preparado para oferecer segurança e tranquilidade às famílias no coração de São Paulo, próximo à Av. Paulista.
       </p>
 
       <div className="grid grid-cols-2 md:grid-cols-3 gap-3 md:gap-4 mb-8">

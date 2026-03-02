@@ -20,9 +20,9 @@ const AboutSection = () => (
             Conheça o Dr. Moises Chencinski
           </h2>
           <div className="space-y-3 font-body text-muted-foreground leading-relaxed text-base mb-6">
-            <p>Médico com atuação em <strong className="text-foreground">Pediatria e Homeopatia</strong>, oferecendo atendimento individualizado e humanizado, sempre com embasamento científico.</p>
-            <p>Autor de 3 livros e colunista em revistas e sites especializados. Experiência em aleitamento materno.</p>
-            <p>Acompanhamento desde o pré-natal até a infância. Consulta estruturada para compreender o paciente como um todo, fortalecendo o vínculo médico e familiar.</p>
+            <p>Sou médico pediatra que acompanha o paciente desde o pré-natal até a infância. E homeopata, nessa especialidade atendo pessoas de todas as idades.</p>
+            <p>A minha consulta é estruturada para compreender o paciente como um todo, fortalecendo o vínculo médico e familiar.</p>
+            <p>Minha prática é voltada para pacientes que se sentem frustrados com consultas rápidas, diagnósticos superficiais ou tratamentos padronizados.</p>
           </div>
           <WhatsAppButton>
             Agendar Consulta
