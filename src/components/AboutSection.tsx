@@ -21,8 +21,8 @@ const AboutSection = () => (
           </h2>
           <div className="space-y-3 font-body text-muted-foreground leading-relaxed text-base mb-6">
             <p>Sou médico pediatra que acompanha o paciente desde o pré-natal até a infância. E homeopata, nessa especialidade atendo pessoas de todas as idades.</p>
-            <p>A minha consulta é estruturada para compreender o paciente como um todo, fortalecendo o vínculo médico e familiar.</p>
-            <p>Minha prática é voltada para pacientes que se sentem frustrados com consultas rápidas, diagnósticos superficiais ou tratamentos padronizados.</p>
+            <p>A minha consulta é estruturada para compreender o paciente como um todo, fortalecendo o vínculo médico-familiar.</p>
+            <p>Minha prática é voltada para pacientes que buscam serem ouvidos com empatia, sem julgamentos e acompanhados com embasamento científico.</p>
           </div>
           <WhatsAppButton>
             Agendar Consulta

@@ -9,8 +9,8 @@ const items = [
   },
   {
     icon: BookOpen,
-    title: "Autor de 3 Livros",
-    text: "GERAR E NASCER um canto de amor e aconchego. CRÔNICAS AGUDAS de aleitamento materno. HOMEOPATIA Mais Simples do Que Parece.",
+    title: "Autor de 5 Livros",
+    text: "GERAR E NASCER um canto de amor e aconchego. CRÔNICAS AGUDAS de aleitamento materno. HOMEOPATIA Mais Simples do Que Parece. É MAMÍFERO QUE FALA NÉ? Dicionário AMAMENTÊS-PORTUGUÊS.",
   },
   {
     icon: GraduationCap,
