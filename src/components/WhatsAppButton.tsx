@@ -1,7 +1,11 @@
+import type { MouseEvent, ReactNode } from "react";
+
+import { trackWhatsAppConversion } from "@/lib/whatsapp";
+
 const WHATSAPP_URL = "https://wa.me/5511994404507?text=Ol%C3%A1,%20conheci%20o%20Dr%20Moises%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20consulta%20de%20pediatria%20com%20ele";
 
 interface WhatsAppButtonProps {
-  children: React.ReactNode;
+  children: ReactNode;
   className?: string;
   href?: string;
 }
@@ -9,10 +13,9 @@ interface WhatsAppButtonProps {
 const WhatsAppButton = ({ children, className = "", href }: WhatsAppButtonProps) => {
   const url = href || WHATSAPP_URL;
 
-  const handleClick = () => {
-    if (typeof window !== "undefined" && (window as any).gtag_report_conversion) {
-      (window as any).gtag_report_conversion(url);
-    }
+  const handleClick = (event: MouseEvent<HTMLAnchorElement>) => {
+    event.preventDefault();
+    trackWhatsAppConversion(url);
   };
 
   return (
