@@ -1,10 +1,12 @@
+import type { MouseEvent } from "react";
+
+import { trackWhatsAppConversion } from "@/lib/whatsapp";
 import { WHATSAPP_URL } from "./WhatsAppButton";
 
 const FloatingWhatsApp = () => {
-  const handleClick = () => {
-    if (typeof window !== "undefined" && (window as any).gtag_report_conversion) {
-      (window as any).gtag_report_conversion(WHATSAPP_URL);
-    }
+  const handleClick = (event: MouseEvent<HTMLAnchorElement>) => {
+    event.preventDefault();
+    trackWhatsAppConversion(WHATSAPP_URL);
   };
 
   return (
