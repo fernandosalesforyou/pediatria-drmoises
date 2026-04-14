@@ -3,11 +3,11 @@ const WHATSAPP_URL = "https://wa.me/5511994404507?text=Ol%C3%A1,%20conheci%20o%2
 interface WhatsAppButtonProps {
   children: React.ReactNode;
   className?: string;
-  message?: string;
+  href?: string;
 }
 
-const WhatsAppButton = ({ children, className = "", message }: WhatsAppButtonProps) => {
-  const url = message ? `${WHATSAPP_URL}?text=${encodeURIComponent(message)}` : WHATSAPP_URL;
+const WhatsAppButton = ({ children, className = "", href }: WhatsAppButtonProps) => {
+  const url = href || WHATSAPP_URL;
 
   const handleClick = () => {
     if (typeof window !== "undefined" && (window as any).gtag_report_conversion) {
