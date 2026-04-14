@@ -43,7 +43,7 @@ const SpecialtiesSection = () => (
               </li>
             ))}
           </ul>
-          <WhatsAppButton message="Olá, gostaria de agendar uma consulta de Pediatria.">
+          <WhatsAppButton>
             Agendar Consulta
           </WhatsAppButton>
         </div>
@@ -64,7 +64,7 @@ const SpecialtiesSection = () => (
               </li>
             ))}
           </ul>
-          <WhatsAppButton message="Olá, gostaria de agendar uma consulta de Homeopatia.">
+          <WhatsAppButton href="https://wa.me/5511994404507?text=Ol%C3%A1,%20conheci%20o%20Dr%20Moises%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20consulta%20de%20homeopatia%20com%20ele">
             Agendar Consulta
           </WhatsAppButton>
         </div>
