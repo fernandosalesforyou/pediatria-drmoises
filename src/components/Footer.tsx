@@ -9,7 +9,7 @@ const Footer = () => (
         <div>
           <h4 className="font-display text-lg font-bold mb-3">Contato</h4>
           <div className="font-body text-sm opacity-80 space-y-1">
-            <p>📍 Rua Itapeva, 240 - cj. 1807</p>
+            <p>📍 Rua Itapeva, 202 cj. 119</p>
             <p>Bela Vista, São Paulo - SP - 01332-000</p>
             <p>📞 (11) 99440-4507</p>
             <p>📧 contato@doutormoises.com.br</p>

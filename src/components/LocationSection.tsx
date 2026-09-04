@@ -15,7 +15,7 @@ const LocationSection = () => (
             <MapPin className="w-5 h-5 text-primary mt-1 flex-shrink-0" />
             <div className="font-body text-sm text-muted-foreground">
               <p className="font-semibold text-foreground">Endereço</p>
-              Rua Itapeva, 240 - cj. 1807<br />
+              Rua Itapeva, 202 cj. 119<br />
               Bela Vista, São Paulo – SP<br />
               01332-000
             </div>
@@ -50,7 +50,7 @@ const LocationSection = () => (
         <div className="rounded-xl overflow-hidden shadow-sm border border-border h-64 md:h-auto min-h-[280px]">
           <iframe
             title="Localização do Consultório Dr. Moises Chencinski"
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.098!2d-46.6539!3d-23.5622!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59c8da0aa315%3A0x71d7b3b9d0fa6035!2sR.%20Itapeva%2C%20240%20-%20Bela%20Vista%2C%20S%C3%A3o%20Paulo%20-%20SP!5e0!3m2!1spt-BR!2sbr!4v1700000000000"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.098!2d-46.6539!3d-23.5622!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59c8da0aa315%3A0x71d7b3b9d0fa6035!2sRua%20Itapeva%2C%20202%20cj.%20119%20-%20Bela%20Vista%2C%20S%C3%A3o%20Paulo%20-%20SP!5e0!3m2!1spt-BR!2sbr!4v1700000000000"
             width="100%"
             height="100%"
             style={{ border: 0 }}
