@@ -15,7 +15,7 @@ const LocationSection = () => (
             <MapPin className="w-5 h-5 text-primary mt-1 flex-shrink-0" />
             <div className="font-body text-sm text-muted-foreground">
               <p className="font-semibold text-foreground">Endereço</p>
-              Rua Itapeva, 240 - cj. 1807<br />
+              Rua Itapeva, 202 cj. 119<br />
               Bela Vista, São Paulo – SP<br />
               01332-000
             </div>
